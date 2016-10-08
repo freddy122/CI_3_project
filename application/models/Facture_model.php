@@ -66,5 +66,6 @@ class Facture_model extends CI_Model
     {
         $this->db->where("id_fact",$id);
         $this->db->delete($this->table);
+	    
     }
 }
